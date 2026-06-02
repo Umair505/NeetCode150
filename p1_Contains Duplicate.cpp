@@ -1,3 +1,4 @@
+//Problem Link:https://neetcode.io/problems/duplicate-integer/question?list=neetcode150
 //Python code for the problem "Contains Duplicate"
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
