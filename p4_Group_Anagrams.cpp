@@ -17,3 +17,23 @@ class Solution:
             
         # শুধু ভ্যালুগুলো (অ্যানাগ্রামের গ্রুপ) রিটার্ন করছি
         return list(ansMap.values())
+
+C++ Solution
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<string,vector<string>>ansMap;
+        
+        for(string s : strs)
+        {
+            string key = s;
+            sort(key.begin(),key.end());
+            ansMap[key].push_back(s);
+        }
+        vector<vector<string>>result;
+       for (auto& pair : ansMap) {
+            result.push_back(pair.second); 
+        }
+        return result;
+    }
+};
