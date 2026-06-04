@@ -1,4 +1,4 @@
-Problem Link:https://neetcode.io/problems/two-sum/question?list=neetcode150
+Problem Link:https://neetcode.io/problems/two-integer-sum/question
 //Python code for the problem "Two Sum"
 //Time complexity: O(n) where n is the length of the input array
 class Solution:
